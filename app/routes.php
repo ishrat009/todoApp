@@ -33,3 +33,7 @@ Route::get('Welcome/sayHello', 'WelcomeController@sayHello');
 
 
 Route::get('Student/sayHi', 'StudentController@sayHi');
+
+Route::resource('projects', 'ProjectsController');
+
+Route::resource('tasks', 'TasksController');
